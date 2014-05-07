@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+.expander {
+    border: 1px solid black;
+    width: 250px;
+}
+
+.expander>.title {
+    background-color: black;
+    color: white;
+    padding: .1em .3em;
+    cursor: pointer;
+}
+
+.expander>.body {
+    padding: .1em .3em;
+}
+    </style>
+    <!--<script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="TinyMessenger.js"></script>
+    <script type="text/javascript" src="register.js"></script>
+    <script type="text/javascript" src="directive.js"></script>
+    <script type="text/javascript" src="controller.js"></script>-->
+  
+  <!--<script data-main="http://local.tmall.net/angularAndRequire/src/js/entry" src="http://local.tmall.net/angularAndRequire/src/js/lib/require.js"></script>
+  <script type="text/javascript" src="http://local.tmall.net/angularAndRequire/src/js/requirejs-config.js"></script>-->
+  <script data-main="http://local.tmall.net/angularAndRequire/build/js/app.min.js" src="http://local.tmall.net/angularAndRequire/src/js/lib/require.js"></script>
+</head>
+<body class="J_expander">
+<div ng-controller="ctrl">
+    <div>
+        <expander-e expander-title="{{title}}" class="expander">
+        {{text}}
+        </expander-e> 
+        <expander-e-cp expander-title="模块B" class="expander">
+        {{text}}
+        </expander-e-cp> 
+    </div>
+    <div style="margin-top:20px;">
+        <expander expander-title="{{title}}" class="expander">
+        {{text}}
+        </expander> 
+        <expander-cp expander-title="模块B" class="expander">
+        {{text}}
+        </expander-cp> 
+    </div>
+
+    <input type="text" ng-model="title"/>
+    
+</div>
+</body>
+</html>
