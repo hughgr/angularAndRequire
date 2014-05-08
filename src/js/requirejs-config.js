@@ -8,6 +8,7 @@ requirejs.config({
       "validate": "lib/jquery.validate.min",
       "highcharts": "lib/highcharts",
       "datepicker": "lib/jquery-ui-datepicker-1.10.4.custom.min",
+      "commonDirective": "ng/common/commonDirective"
     },
     shim: {
       "angular": {
