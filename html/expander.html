@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<link rel="stylesheet" href="http://g.tbcdn.cn/sj/dpl/1.0.0/css/sui.min.css" />
     <meta charset="UTF-8">
     <title></title>
     <style type="text/css">
@@ -40,7 +41,7 @@
 </head>
 <body class="J_expander ng-cloak">
 <dialog>
-<div id="myModal" tabindex="-1" role="dialog" data-hasfoot="false" class="sui-modal hide fade">
+<div id="modal" tabindex="-1" role="dialog" data-hasfoot="false" class="sui-modal hide fade">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -75,7 +76,7 @@
     </div>
 
     <input type="text" ng-model="title"/>
-    
+    <button ng-click="openModal('#modal')">open modal</button> 
 </div>
 </body>
 </html>

@@ -1,5 +1,7 @@
-define(['commonDirective'], function (commonDirective) {
-    commonDirective.directive('dialog', [function () {
-        console.log($);    
+define(['commonDirectives'], function (commonDirectives) {
+    commonDirectives.directive('dialog', [function () {
+         return {
+             
+         }
     }])
 })

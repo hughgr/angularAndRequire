@@ -1,3 +1,3 @@
 define (['angular'], function () {
-    return angular.module('commonDirective',[]);  
+    return angular.module('commonDirectives',[]);  
 })

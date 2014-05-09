@@ -1,4 +1,4 @@
-define(['angular'], function (angular) {
+define(['angular', 'commonDirectives'], function (angular, commonDirectives) {
     'use strict';
-    return angular.module('expanderApp',['commonDirective']); 
+    return angular.module('expanderApp',['commonDirectives']); 
 })

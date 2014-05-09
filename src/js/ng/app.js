@@ -1,5 +1,8 @@
 define([
     'angular',
+    'sui',
+    'commonDirectives',
+    'ng/common/directiveBox',
     'ng/page/expander/main',
     'ng/page/expander/directive',
     'ng/page/expander/controller'
